@@ -1,0 +1,41 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.ant-layout-sider {
+  max-width: 100px !important;
+  min-width: 100px !important;
+
+  background: linear-gradient(
+    180deg,
+    rgba(7, 56, 158, 1) 0%,
+    rgba(71, 178, 186, 1) 100%
+  );
+}
+
+.ant-menu,
+.ant-menu-light,
+.ant-menu-dark {
+  background: transparent;
+}

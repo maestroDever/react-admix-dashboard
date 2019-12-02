@@ -1,0 +1,41 @@
+.content-container {
+  margin: 24px 16px 0;
+
+  .content-overview {
+    padding: 24px;
+
+    .content-overview-header {
+      display: flex;
+      align-items: center;
+
+      .content-overview-title {
+        color: #020442;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .content-overview-dropdown {
+        margin-left: 30px;
+        width: 160px;
+      }
+    }
+  }
+
+  .content-apps {
+    padding: 24px;
+
+    .content-apps-header {
+      .content-apps-title {
+        color: #020442;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .content-apps-menu {
+        margin-left: 30px;
+      }
+    }
+  }
+}

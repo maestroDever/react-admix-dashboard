@@ -1,0 +1,21 @@
+.app-list-container {
+  margin-top: 12px;
+  border-radius: 4px;
+
+  .app-info-item {
+    border-radius: 5px;
+
+    .app-info-row {
+      .app-info-title,
+      .app-info-revenue,
+      .app-info-badge {
+        line-height: 36px;
+      }
+
+      .app-info-title--icon {
+        width: 30px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
